@@ -1,0 +1,49 @@
+#card{
+    height:300px;
+
+}
+
+#header{
+    font-weight:bold;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+#captions{
+    top: 
+    1%;}
+.schiplaw{
+    width: 300px
+}
+#lastCard{
+    padding: 0;
+    box-sizing: border-box;
+    /* border: .01px solid; */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 3px 3px; */
+}
+
+.container{
+    padding:0;
+    /* background-color: rgba(0,0,0,0.1); */
+}
+#consultation{
+    height: 35px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+#cardShadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: .01px solid;
+}
+.cardContainer{
+    border: .01px solid;
+}
+
+#whatWeDo{
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+
+}
