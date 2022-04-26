@@ -2,7 +2,9 @@
     height:300px;
 
 }
-
+p,h5,h3,h1,button{
+    font-family: var(--bs-font-monospace);
+}
 #header{
     font-weight:bold;
     box-shadow: 1px 1px 1px 1px;
@@ -20,6 +22,7 @@
     /* border: .01px solid; */
     border-radius: 10px;
     /* box-shadow: 1px 1px 3px 3px; */
+    animation: slideMe .3s ease-in;
 }
 
 .container{
@@ -41,9 +44,19 @@
 }
 .cardContainer{
     border: .01px solid;
+    animation: slideMe .3s ease-in;
+  
 }
 
 #whatWeDo{
     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 
+}
+@keyframes slideMe{
+    0%{
+        transform:skewX(15deg) translateX(-5px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
 }
