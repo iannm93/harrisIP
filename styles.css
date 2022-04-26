@@ -25,6 +25,9 @@ p,h5,h3,h1,button{
     animation: slideMe .3s ease-in;
 }
 
+#lastCard:hover{
+    transform: translateY(0) scale(1.04);
+}
 .container{
     padding:0;
     /* background-color: rgba(0,0,0,0.1); */
@@ -45,7 +48,11 @@ p,h5,h3,h1,button{
 .cardContainer{
     border: .01px solid;
     animation: slideMe .3s ease-in;
+   
   
+}
+.cardContainer:hover{
+    transform: translateY(0) scale(1.04);
 }
 
 #whatWeDo{
