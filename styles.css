@@ -22,13 +22,13 @@ p,h5,h3,h1,button{
     /* border: .01px solid; */
     border-radius: 10px;
     /* box-shadow: 1px 1px 3px 3px; */
-    animation: slideMe .7s ease-in;
+    animation: slideMe .5s ease-in;
     
 }
 
-#lastCard:hover{
+/* #lastCard:hover{
     transform: translateY(0) scale(1.04);
-}
+} */
 .container{
     padding:0;
     /* background-color: rgba(0,0,0,0.1); */
@@ -51,7 +51,7 @@ border-color: white;
 }
 .cardContainer{
     border: .01px solid;
-    animation: slideMe .7s ease-in;
+    animation: slideMe .2s ease-in;
    
   
 }
@@ -68,9 +68,14 @@ border-color: white;
 }
 @keyframes slideMe{
     0%{
-        transform:skewX(15deg) translateX(-5px);
+        transform:skewX(10deg) translateX(-5px);
     }
     100%{
         transform: skew(0deg);
     }
+}
+
+.image{
+    background-image: url("https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
 }
