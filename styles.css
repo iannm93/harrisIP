@@ -22,7 +22,7 @@ p,h5,h3,h1,button{
     /* border: .01px solid; */
     border-radius: 10px;
     /* box-shadow: 1px 1px 3px 3px; */
-    animation: slideMe .3s ease-in;
+    animation: slideMe .7s ease-in;
 }
 
 #lastCard:hover{
@@ -47,7 +47,7 @@ p,h5,h3,h1,button{
 }
 .cardContainer{
     border: .01px solid;
-    animation: slideMe .3s ease-in;
+    animation: slideMe .7s ease-in;
    
   
 }
