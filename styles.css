@@ -3,7 +3,7 @@
 
 }
 p,h5,h3,h1,button{
-    font-family: var(--bs-font-monospace);
+    /* font-family: var(--bs-font-monospace); */
 }
 #header{
     font-weight:bold;
@@ -23,6 +23,7 @@ p,h5,h3,h1,button{
     border-radius: 10px;
     /* box-shadow: 1px 1px 3px 3px; */
     animation: slideMe .7s ease-in;
+    
 }
 
 #lastCard:hover{
@@ -44,6 +45,9 @@ p,h5,h3,h1,button{
 #cardShadow{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border: .01px solid;
+    /* background-color: #0abcf9;
+background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
+border-color: white;
 }
 .cardContainer{
     border: .01px solid;
@@ -56,6 +60,9 @@ p,h5,h3,h1,button{
 }
 
 #whatWeDo{
+    /* background-color: #0abcf9;
+    background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
+    border-color: white;
     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 
 }
