@@ -1,11 +1,13 @@
+@import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .header{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url("https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -15,4 +17,19 @@
 
 .schip{
     background-size: cover;
+}
+
+.middle{
+    height: 80vh;
+    width: 80%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+:root{
+    --main-color: #f0b30f;
+}
+
+.color{
+    color: var(--main-color)
 }
