@@ -106,7 +106,7 @@ let carousel = document.querySelector("#containerTwo")
     
       </div>
     `
-    
+      let array2 =[];
     carousel.innerHTML = carouselHTML
     console.log(yelpArray[Math.floor(Math.random()*yelpArray.length)].text)
 fetch('https://api.yelp.com/v3/businesses/law-office-of-scott-c-harris-rancho-santa-fe/reviews', {
@@ -119,3 +119,20 @@ fetch('https://api.yelp.com/v3/businesses/law-office-of-scott-c-harris-rancho-sa
 })
    .then(resp => resp.json())
    .then(json => console.log(json))
+
+
+   
+let array = ["hello you're gay", "goodbye, you're gay", "there is no amount of money on earth you could pay me", "ooga", "booga"]
+
+
+function loop(array){
+  for (let i =0; i <array.length; i++){
+    if (array[i].includes("hello", "money", "booga")){
+      array2.push(array[i])
+
+    }
+  }
+  console.log(array2)
+}
+
+loop(array)

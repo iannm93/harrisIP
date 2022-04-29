@@ -3,6 +3,9 @@
     height:300px;
 
 }
+:root{
+    --main-color: #f0b30f;
+}
 
 @import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 p,h5,h3,h1,button{
@@ -40,8 +43,10 @@ p,h5,h3,h1,button{
     height: 35px;
     font-weight: bold;
     border-radius: 15px;
-    color: black;
-        background-color: white
+    
+        background-color: var(--main-color);
+        color: white;
+    
     
 }
 #cardShadow{
