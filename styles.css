@@ -1,7 +1,10 @@
+
 #card{
     height:300px;
 
 }
+
+@import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 p,h5,h3,h1,button{
     /* font-family: var(--bs-font-monospace); */
 }
@@ -78,3 +81,22 @@ border-color: white;
     transform: translateY(0) scale(1.04);
 
 }
+
+.underline{
+    
+}
+
+ul li a:hover{
+    color: #f0b30f;
+    border-bottom: 2px solid #f0b30f;
+
+}
+.h1, h2, h3, h4, h5 {
+    text-decoration: underline 3px #f0b30f;
+    text-underline-position: under;
+}
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+

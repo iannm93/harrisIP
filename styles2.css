@@ -8,6 +8,8 @@
 .header{
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    position: relative;
+
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -15,12 +17,18 @@
 
 }
 
+.waves{
+    position: absolute;
+    bottom: 0px;
+    
+}
+
 .schip{
     background-size: cover;
 }
 
 .middle{
-    height: 80vh;
+    height: 70vh;
     width: 80%;
     display:flex;
     justify-content: start;
@@ -30,6 +38,53 @@
     --main-color: #f0b30f;
 }
 
+.navbar-brand{
+    color: var(--main-color) !important;
+}
 .color{
-    color: var(--main-color)
+    color: var(--main-color);
+}
+
+.ss{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+}
+
+#consultation{
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 50px;
+    padding: 5px;
+    border-radius: 24px;
+    color: white;
+    background-color: #f0b30f;
+    font-weight: 900;
+    z-index: 5;
+}
+
+#consultation:hover{
+    transform: translateY(0) scale(1.04);
+    cursor: pointer;
+    
+}
+
+@keyframes slideMe{
+    0%{
+        transform:skewX(10deg) translateX(-5px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+/* #slide{
+    animation: slideMe 3s ease-in;
+} */
+.bottom{
+    display: flex;
+    justify-content: center;
 }
