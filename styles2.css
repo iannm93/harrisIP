@@ -65,26 +65,79 @@
     background-color: #f0b30f;
     font-weight: 900;
     z-index: 5;
+    border-color: #f0b30f;
+    animation: fade-in 4s;
 }
-
 #consultation:hover{
-    transform: translateY(0) scale(1.04);
+    transform: translateY(0) scale(1.2);
     cursor: pointer;
     
 }
 
 @keyframes slideMe{
     0%{
-        transform:skewX(10deg) translateX(-5px);
+        transform:translateX(-1200px);
     }
+    /* 100%{
+        transform: skew(0deg);
+    } */
+}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+
     100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slider{
+    0%{
+        transform: skewX(360deg) translateX(1200px);
+    }100%{
         transform: skew(0deg);
     }
 }
-/* #slide{
-    animation: slideMe 3s ease-in;
-} */
+#slide{
+    /* animation: slider 1s forwards; */
+    animation: fade-in 3s;
+}
 .bottom{
     display: flex;
     justify-content: center;
+}
+
+.bg-4{
+    background-color: black;
+}
+.container-card{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+p{
+    line-height: 1.8;
+}
+.container-footer{
+    height:100px;
+    width:100%;
+    background-color: #f0b30f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scott{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif
+}
+.padding{
+    padding-bottom:100px;
+}
+
+.more-padding{
+    padding-bottom:125px;
 }
