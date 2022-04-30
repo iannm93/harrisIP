@@ -112,12 +112,13 @@
     background-color: black;
 }
 .container-card{
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 70px;
-
 }
+
+
 p{
-    line-height: 1.8;
+    line-height: 1.6;
 }
 .container-footer{
     height:100px;
@@ -135,11 +136,11 @@ p{
     font-family: "Poppins", sans-serif
 }
 .padding{
-    padding-bottom:130px;
+    padding-bottom:120px;
 }
 
 .more-padding{
-    padding-bottom:160px;
+    padding-bottom:145px;
 }
 
 #margins-for-about{

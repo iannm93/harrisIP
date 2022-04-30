@@ -6,6 +6,13 @@
 :root{
     --main-color: #f0b30f;
 }
+#color{
+    color:var(--main-color);
+    font-weight: 900;
+    padding-left:5px;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 @import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 p,h5,h3,h1,button{
@@ -15,6 +22,20 @@ p,h5,h3,h1,button{
     font-weight:bold;
     box-shadow: 1px 1px 1px 1px;
     border-radius: 3px;
+}
+
+.picture{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    position: relative;
+
+    width: 100%;
+    height: 40vh;
+    background-position: center; 
+     background-size: cover; 
+     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
+    
+    
 }
 #captions{
     top: 
@@ -57,7 +78,7 @@ background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
 border-color: white;
 }
 .cardContainer{
-    border: .01px solid;
+    border: .01px;
     animation: slideMe .2s ease-in;
    
   
@@ -96,12 +117,36 @@ ul li a:hover{
     border-bottom: 2px solid #f0b30f;
 
 }
-.h1, h2, h3, h4, h5 {
+/* .h1, h2, h3, h4, h5 {
     text-decoration: underline 3px #f0b30f;
     text-underline-position: under;
-}
+} */
 *{
     font-family: "Poppins", sans-serif;
 
 }
 
+#message{
+    padding: 30px; 
+}
+
+#containerTwo{
+    margin-bottom: 20px;
+}
+.container-footer{
+    height:100px;
+    width:100%;
+    background-color: #f0b30f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#yelpIcon{
+    height: 10%;
+    width: 10%;
+}
+#yelpCard{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+}
