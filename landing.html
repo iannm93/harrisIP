@@ -1,86 +1,180 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <!-- Bootstrap CSS -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles2.css">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    <section class ="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                  <a class="navbar-brand" href="#">SCHIP Law</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link ss" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Location</a>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Reviews</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Consultation</a>
-                        </li>
-                      </li>
-                    </ul>
-                   
-                  </div>
+  <!-- container fluid to get rid of auto margins from bootstrap -->
+    <div class="container">
+     <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <span class="navbar-text">
+            <img src="https://harrisip.com/wp-content/uploads/2020/03/logo.jpg">
+            </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link ss" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <img src="https://harrisip.com/wp-content/uploads/2020/03/logo.jpg">
+            </span>
+          </div>
+         </div>
+         </nav>
+ 
+         
+         
+
+         <div class="cardContainer mb-2">
+
+           <div class="card">
+             <img
+             src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+             class="card-img-top" alt="...">
+             
+             <div class="card-body d-flex justify-content-center carousel-caption">
+               <button id = "consultation" class="card-title d-flex justify-content-center mt-0 mb-0">REQUEST CONSULTATION</Button>
+                
+               </div>
+              </div>
+              
+              <div id = "whatWeDo" class="card">
+                <h3 class="card-title text-center">What we do</h3>
+                <div class="underline-container">
+                  
+                  <div class = "underline"> </div>
                 </div>
-              </nav>
-            <div class="middle">
-                <h1 id="slide" class="text-white fw-bold display-4"> We’ve been helping inventors 
-                  protect their creations  <span class="color">for over 20 years.</span></h1>
-            </div>
-            <class class="bottom">
-              <button id="consultation">Book a consultation</button>
-            </class>
-
-        </div>
-        <svg  class = "waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="0.5" d="M0,288L120,288C240,288,480,288,720,282.7C960,277,1200,267,1320,261.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-    </section>
-    <div class="container-card bg-3 text-center">    
-      <h3 class="margin">About Scott</h3><br>
-      <div class="row">
-        <div class="col-sm-4">
-          <p class="more-padding">I have long and varied experience in virtually every Patent Law and Trademark Law issue based on over 30 years experience.
-
-            I am an expert in patent procurement, counseling and monetization by licensing and litigation. Also expert in all facets of trademark law and trademark procurement.
-            
-            I have extensive experience in patent preparation and prosecution. I have prepared over 4000 original applications and prosecuted over 99% of these into patents, including numerous patents that have been successfully litigated and licensed.</p>
-          <img src="https://harrisip.com/wp-content/uploads/2020/03/about2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <p class="padding">I have two decades of experience at “Big Law” firms: Fish & Richardson, PC and Cushman Darby & Cushman. I have represented companies of all sizes, from Fortune 500 companies to startups to individuals.
-
-            Extensive experience with patent assertion entities, including evaluating patent portfolios to determine infringement, and evaluating possible defenses to infringement including due diligence packages and infringement claim charts. Experience enhancing patent portfolio values by acquiring additional claims in patents. My evaluation services have resulted in licenses of over $300 million.</p>
-          <img src="https://harrisip.com/wp-content/uploads/2020/03/about2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4"> 
-          <p class="pb-3">More than 20 of the patents I have written have been successfully litigated in Federal Court, including patents covering:
-            CMOS image sensors as used in cell phones, Cell phone coding schemes, electronic book reading, multiple resolution display over the internet, anti spam software, computer access control via cryptographic hardware, graphic processing units (GPUs), cellular telephone address storage, computer control of abrading of denim products using lasers, GPS navigators, user interface features of cellphones, stage lights and their computer automation, and bar codes.
-            
-            I have written patents for inventors appearing on “Shark Tank”.  I have special expertise in obtaining Design Patents, Software patent protection, and User Interface Protection. I am an inventor on over 10 issued patents that have been successfully litigated.</p>
-          <img src="https://harrisip.com/wp-content/uploads/2020/03/about2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        </div>
+                <p class="card-body">
+                  At Harris IP Law, we are committed to excellence and have been successfully representing clients since 2007. We
+                  have over 20 years of collective experience in a top-five “big law” intellectual property firm. We can handle
+                  any patent, design patent, trademark or computer law legal need or question. Harris IP Law is internationally
+                  recognized for our comprehensive advice and effective representation. No one will protect your intellectual
+            property rights better than us. We are experts at getting patents, trademarks, and design patents, at the lowest
+            possible cost.
+        </p>
       </div>
     </div>
-    <footer class="container-footer bg-4 text-center">
-<!-- <p class ="scott">Scott C Harris Intellectual Property</p>  -->
-</footer>
+    
+    <div class="row">
+      
+      
+      <div class="col-lg-4">
+        <div id="lastCard">
+          
+          <div class="card mb-3">
+            <img src="https://attorneyatlawmagazine.com/wp-content/uploads/2019/09/Phoenix-Patent-Attorney.jpg"
+            class="card-img-top" alt="...">
+            <div id="cardShadow" class="card-body">
+              <h5 class="card-title">Utility Patent Law</h5>
+              
+              <p class="card-text">Patent law is an area of law that assists an inventor’s exclusive right to use their
+                own invention. Patent law aims to encourage new products and inventions by granting creators the legal
+                right to use and profit from the things that they create. As patent attorneys, we help clients apply for
+                patents and license patents.</p>
+                <div class="d-flex justify-content-center">
+                  
+                  <button id ="consultation"class="d-flex justify-content-center">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div id="lastCard"class="card mb-3">
+            <img src="https://harrisip.com/wp-content/uploads/2020/04/trademark-law.jpg" class="card-img-top" alt="...">
+            <div id="cardShadow" class="card-body">
+              <h5 class="card-title">Trademark Law</h5>
+              
+              <p class="card-text">Trademark law is the set of legal regulations set up to protect
+                trademarks. A trademark is a legal protection given to any word, name, symbol, or design that is used in
+                commerce to identify the product of one manufacturer from another. A federal trademark protects the
+                branding of your product or service..</p>
+                <div class="d-flex justify-content-center">
+                  
+                  <button id ="consultation"class="d-flex justify-content-center">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div  id ="lastCard" class="card mb-3">
+              <img src="https://harrisip.com/wp-content/uploads/2020/04/product-design-patents-san-diego.jpg"
+              class="card-img-top" alt="...">
+          <div id="cardShadow" class="card-body">
+            <h5 class="card-title">Product Design Patents</h5>
+            
+            <p class="card-text">Design patents are designed to protect the ornamental look of your invention. A design patent will
+              protect you against others copying the way your invention looks. Design patents can be obtained on many
+              different kinds of things including clothing, packaging of a product, computer user interfaces or icons.</p>
+              <div class="d-flex justify-content-center">
+                
+              <button id ="consultation"class="d-flex justify-content-center">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="containerThree">
+   
+    </div>
+    
+    
+    <div id="containerTwo">
+      
+      
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    
+    
+    
+    <!--  -->
+    <!-- GET https://api.yelp.com/v3/businesses/{id}/reviews -->
+    
+    <!-- Optional JavaScript; choose one of the two! -->
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
 </body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
 </html>
