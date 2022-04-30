@@ -2,6 +2,7 @@ let yelp = document.getElementsByClassName("yelp");
 let carousel = document.querySelector("#containerTwo");
 let message = document.getElementById("message");
 let user = document.getElementById("user");
+let starContainer = document.getElementById("star-container")
 // const URLForScott =
 // "https://api.yelp.com/v3/businesses/law-office-of-scott-c-harris-rancho-santa-fe/reviews"
 // let settings = {
@@ -29,7 +30,8 @@ let yelpArray = [
       profile_url:
         "https://www.yelp.com/user_details?userid=qsymWtbgqeSY5IWy1bmqPA",
       image_url: null,
-      name: "Marcin M.",
+      name: "-Marcin M.",
+      star: 4,
     },
   },
   {
@@ -44,19 +46,22 @@ let yelpArray = [
         "https://www.yelp.com/user_details?userid=BkI848ScrMkvIyYNLFg1BA",
       image_url:
         "https://s3-media1.fl.yelpcdn.com/photo/OQJjNO_gVw9k4Kw9ALQetQ/o.jpg",
-      name: "My Exp. Reviews S.",
+      name: "-My Exp. Reviews S.",
+      star: 5,
     },
   },
   {
     text: "I am impressed with Scott's integrity, professionalism and expertise. He is a no-nonsense guy who values your time and his. Scott is easy to work with, flexible and efficient. It has been a true pleasure working with Scott. He explained every step of the patent application process and it has gone exactly as he said. If you are looking for a patent attorney who really knows his stuff. Scott is your man. He does the Work himself, he doesn't have some aid in his office do it. He wants to make sure that he understands your product thoroughly in  order to get the job done correctly and in case he ever has to represent you in court. Scott made me feel like I was his only client. I completely forgot that he has an entire office with other businesses and companies to handle. Scott will be my IP attorney for every project in the future. 100% trust and confidence in this professional!",
     user: {
-      name: "Leigh C.",
+      name: "-Leigh C.",
+      star:5,
     },
   },
   {
     text: "He was an absolute joy to work with and an awesome attorney!  Got our provisional patent filed quickly and had excellent communication! Highly recommend!",
     user: {
-      name: "Laurie C.",
+      name: "-Laurie C.",
+      star: 5,
     },
   },
   {},
@@ -92,6 +97,32 @@ let randomYelps = function () {
 
   user.textContent = yelpArray[randomNumb].user.name;
   message.textContent = yelpArray[randomNumb].text;
+  if (yelpArray[randomNumb].user.star === 5){
+    starContainer.innerHTML = ` <img
+    id = "star" src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  />
+  <img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  /><img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  /><img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  /><img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  />`
+
+  } else if (yelpArray[randomNumb].user.star === 4) {
+    starContainer.innerHTML = `<img
+    id = "star" src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  />
+  <img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  /><img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  /><img
+  id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
+  />`
+  }
   count--;
   console.log(count);
   if (count === 55) {
@@ -99,7 +130,7 @@ let randomYelps = function () {
   }
 };
 
-setInterval(randomYelps, 4000);
+setInterval(randomYelps, 5000);
 // console.log(users)
 //  time = setInterval(() => {
 //    for(let i = 0 ; i<count.length; i++){
