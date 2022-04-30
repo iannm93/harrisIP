@@ -66,24 +66,11 @@ let yelpArray = [
   },
   {},
 ];
-let randomNum = Math.floor(Math.random() * yelpArray.length);
-let randomYelp = yelpArray[randomNum].text;
-console.log(randomYelp);
-let randomName = yelpArray[randomNum].user.name;
-console.log(randomName);
+
 let count = 60;
 let time;
 
-let yelpHTML = `      <div id="containerTwo">
-    <div class="card">
-    <div class="card-body">
-    "${randomYelp}"
-    </div>
-    <div class="card-title text-center">
-    - ${randomName}
-    </div>
-    </div>
-    </div>`;
+
 
 function stringify(x, y) {
   console.log(Object.prototype.toString.call(x, y));
@@ -96,7 +83,9 @@ let randomYelps = function () {
   let randomNumb = Math.floor(Math.random() * yelpArray.length);
 
   user.textContent = yelpArray[randomNumb].user.name;
+  user.style.opacity = 0
   message.textContent = yelpArray[randomNumb].text;
+  message.style.opacity = 0;
   if (yelpArray[randomNumb].user.star === 5){
     starContainer.innerHTML = ` <img
     id = "star" src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
@@ -131,6 +120,22 @@ let randomYelps = function () {
 };
 
 setInterval(randomYelps, 5000);
+
+let opacityFade = function (){
+  let opacity = Number(window.getComputedStyle(user).getPropertyValue("opacity"))
+  if (opacity < 1){
+    opacity = opacity +0.1
+    user.style.opacity= opacity
+  }
+
+  let opacity2 = Number(window.getComputedStyle(message).getPropertyValue("opacity"))
+  if( opacity2 < 1){
+    opacity2 = opacity2 +0.1
+    message.style.opacity = opacity2 
+  }
+ 
+}
+setInterval(opacityFade, 150)
 // console.log(users)
 //  time = setInterval(() => {
 //    for(let i = 0 ; i<count.length; i++){
