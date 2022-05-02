@@ -3,6 +3,7 @@ let carousel = document.querySelector("#containerTwo");
 let message = document.getElementById("message");
 let user = document.getElementById("user");
 let starContainer = document.getElementById("star-container")
+let consultation = document.getElementById("consultation");
 // const URLForScott =
 // "https://api.yelp.com/v3/businesses/law-office-of-scott-c-harris-rancho-santa-fe/reviews"
 // let settings = {
@@ -246,3 +247,20 @@ function loop(array) {
 }
 
 loop(array);
+
+let navbarText = document.getElementById("navbarText")
+consultation.style.display = "block" ? consultation.style.display = "none": 
+consultation.style.display = "block";
+function display(){
+  alert("test")
+
+}
+display();
+
+$("#navbarText").on("shown.bs.collapse", function(){
+  // consultation.style.display = "none"  
+
+ consultation.style.display == "block" ? consultation.style.display = "none" : 
+ consultation.style.display = "block"; 
+
+})
