@@ -177,3 +177,32 @@ ul li a:hover{
 .scales{
     color:black;
 }
+
+.right{
+    border-radius: 15px;
+    width: 50px;
+    height: 2.4px;
+    background-color: var(--main-color);
+    margin-left: 4px;
+
+}
+
+.left{
+    border-radius: 15px;
+    width: 50px;
+    height: 2.4px;
+    background-color: var(--main-color);
+    margin-right: 4px;
+}
+
+#star-container{
+    margin-top:30px;
+}
+#clients{
+    margin-top: 20px;
+}
+
+
+#user{
+    margin-bottom: 20px;
+}

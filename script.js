@@ -113,6 +113,7 @@ let randomYelps = function () {
   id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
   />`
   }
+  
   count--;
   console.log(count);
   if (count === 55) {
