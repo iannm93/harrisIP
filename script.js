@@ -67,6 +67,25 @@ let yelpArray = [
   },
   {},
 ];
+console.log("test")
+
+// var modelTwo = document.getElementById('modelTwo')
+// modelTwo.addEventListener('show.bs.modal', function (event) {
+//   // Button that triggered the modal
+//   var button = event.relatedTarget
+//   // Extract info from data-bs-* attributes
+//   var recipient = button.getAttribute('data-bs-whatever')
+//   // If necessary, you could initiate an AJAX request here
+//   // and then do the updating in a callback.
+//   //
+//   // Update the modal's content.
+//   var modalTitle = modelTwo.querySelector('#title2')
+//   var modalBodyInput = exampleModal.querySelector('#body2')
+
+// modalTitle.innerHTML = `<h5  id="title2"class="modal-title">Protect the Ornamental Features of Your Product,<span id="logo"> Computer User Interface or Computer Icon</span></h5>` +recipient
+// modalBodyInput.value = recipient
+// })
+
 
 let count = 60;
 let time;

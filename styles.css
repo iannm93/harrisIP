@@ -54,9 +54,9 @@ p,h5,h3,h1,button{
     
 }
 
-#lastCard:hover{
+/* #lastCard:hover{
     transform: translateY(0) scale(1.04);
-}
+} */
 .container{
     padding:0;
     /* background-color: rgba(0,0,0,0.1); */
@@ -205,4 +205,25 @@ ul li a:hover{
 
 #user{
     margin-bottom: 20px;
+}
+
+#logo{
+    color: var(--main-color);
+}
+
+#subtitles{
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#modals{
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+}
+#modal-color{
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    color: var(--main-color)
 }
