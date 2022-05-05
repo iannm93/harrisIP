@@ -21,7 +21,8 @@
 
 @import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 h1,h2,h3,h4,div,button,p{
-    font-family: 'Times New Roman', Times, serif
+    font-family: "Poppins", sans-serif
+
 }
 #header{
     font-weight:bold;
@@ -29,7 +30,7 @@ h1,h2,h3,h4,div,button,p{
     border-radius: 3px;
 }
 .middle{
-    height: 20vh;
+    height: 25vh;
     width: 88%;
     display:flex;
     justify-content: center;
@@ -263,4 +264,14 @@ ul li a:hover{
     align-items: center;
     display:flex;
     justify-content: center;
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#what-we-do{
+    margin-top: 30px;
 }
