@@ -1,3 +1,9 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
 #card{
     height:300px;
@@ -39,7 +45,7 @@ h1,h2,h3,h4,div,button,p{
 }
 
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/159832/justice-law-case-hearing-159832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     position: relative;
 
     width: 100%;
