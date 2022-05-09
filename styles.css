@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+button{
+    border-color: white;
+}
 
 #card{
     height:300px;
@@ -90,6 +93,7 @@ h1,h2,h3,h4,div,button,p{
     
         background-color: var(--main-color);
         color: white;
+        border-color: white;
     
     
 }

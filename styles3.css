@@ -713,6 +713,7 @@
     border-radius: 20px;
     height: 50px;
     width: 120px;
+    border-color: white;
 
     color: white;
 
@@ -741,4 +742,8 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
 .navbar-brand{
     color:  #f0b30f !important;
+}
+
+button{
+    border-color: white;
 }

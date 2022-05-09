@@ -68,6 +68,7 @@
     border-color: #f0b30f;
     animation: fade-in 4s;
     width: 200px;
+    border-color: white;
 }
 #consultation:hover{
     transform: translateY(0) scale(1.08);
@@ -154,4 +155,9 @@ p{
 #yelpIcon{
     height: 10%;
     width: 10%;
+}
+
+
+button{
+    border-color: white;
 }
