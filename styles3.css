@@ -747,3 +747,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 button{
     border-color: white;
 }
+
+.container-fluid{
+    padding: 0;
+}
