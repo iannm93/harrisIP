@@ -67,6 +67,7 @@
     z-index: 5;
     border-color: #f0b30f;
     animation: fade-in 4s;
+    width: 200px;
 }
 #consultation:hover{
     transform: translateY(0) scale(1.08);
