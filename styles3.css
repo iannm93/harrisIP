@@ -555,7 +555,7 @@
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
     -o-transform: translateY(-3px);
-    transform: translateY(-3px);
+    transform: translateY(-8px);
   }
   
   .textarea--style-6 {
