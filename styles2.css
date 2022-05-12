@@ -55,6 +55,48 @@
     border-bottom: 2px solid var(--main-color);
 }
 
+.container-footer{
+    height:100px;
+    width:100%;
+    background-color: #f0b30f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#yelpIcon{
+    height: 6%;
+    width: 6%;
+    padding: 20px
+}
+
+#yelpIcon:hover{
+    cursor: pointer;
+}
+
+
+#linkedIcon{
+    height: 6%;
+    width: 6%;
+    padding: 20px
+}
+
+#linkedIcon:hover{
+    cursor: pointer;
+}
+
+
+#googleReviews{
+    height: 6%;
+    width: 6%;
+    padding: 20px
+}
+
+#googleReviews:hover{
+    cursor: pointer;
+}
+
+
 #consultation{
     /* display: flex; */
     /* justify-content: center; */
@@ -152,10 +194,7 @@ p{
     margin-right:30px;
 }
 
-#yelpIcon{
-    height: 10%;
-    width: 10%;
-}
+
 
 
 button{

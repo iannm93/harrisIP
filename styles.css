@@ -187,9 +187,38 @@ ul li a:hover{
 
 }
 #yelpIcon{
-    height: 10%;
-    width: 10%;
+    height: 6%;
+    width: 6%;
+    padding: 20px
 }
+
+#yelpIcon:hover{
+    cursor: pointer;
+}
+
+
+#linkedIcon{
+    height: 6%;
+    width: 6%;
+    padding: 20px
+}
+
+#linkedIcon:hover{
+    cursor: pointer;
+}
+
+
+#googleReviews{
+    height: 6%;
+    width: 6%;
+    padding: 20px
+}
+
+#googleReviews:hover{
+    cursor: pointer;
+}
+
+
 #yelpCard{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
 
