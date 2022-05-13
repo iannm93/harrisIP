@@ -89,7 +89,7 @@ let yelpArray = [
   },
   {},
 ];
-console.log("test")
+
 
 // var modelTwo = document.getElementById('modelTwo')
 // modelTwo.addEventListener('show.bs.modal', function (event) {
@@ -114,11 +114,8 @@ let time;
 
 
 
-function stringify(x, y) {
-  console.log(Object.prototype.toString.call(x, y));
-}
 
-console.log;
+
 let names = [];
 let yelps = [];
 let randomYelps = function () {
@@ -157,13 +154,13 @@ let randomYelps = function () {
   
   count--;
   console.log(count);
-  if (count === 55) {
-    clearInterval(randomYelps);
-  }
+
 };
 
 setInterval(randomYelps, 5000);
 
+
+// opacity fade in for interval
 let opacityFade = function (){
   let opacity = Number(window.getComputedStyle(user).getPropertyValue("opacity"))
   if (opacity < 1){

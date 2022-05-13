@@ -65,8 +65,8 @@
 
 }
 #yelpIcon{
-    height: 6%;
-    width: 6%;
+    height: 100px;
+    width: 100px;
     padding: 20px
 }
 
@@ -76,8 +76,8 @@
 
 
 #linkedIcon{
-    height: 6%;
-    width: 6%;
+    height: 100px;
+    width: 100px;
     padding: 20px
 }
 
@@ -87,8 +87,8 @@
 
 
 #googleReviews{
-    height: 6%;
-    width: 6%;
+    height: 100px;
+    width: 100px;
     padding: 20px
 }
 
