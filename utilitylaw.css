@@ -28,6 +28,24 @@ button{
     text-decoration: none;
 }
 
+#frequent{
+    height: 35px;
+    font-weight:bold;
+    border-radius: 15px;
+    
+        background-color: var(--main-color);
+        color: white;
+        border-color: white;
+        margin-left: 15px;
+    
+    
+}
+#modal-p{
+    padding: 30px;
+
+
+}
+
 @import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
 h1,h2,h3,h4,div,button,p{
     font-family: "Poppins", sans-serif
@@ -39,7 +57,7 @@ h1,h2,h3,h4,div,button,p{
     border-radius: 3px;
 }
 .middle{
-    height: 35vh;
+    height: 45vh;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -48,16 +66,15 @@ h1,h2,h3,h4,div,button,p{
 }
 
 .header{
-    margin: 0;
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+            margin-bottom: 3%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://attorneyatlawmagazine.com/wp-content/uploads/2019/09/Phoenix-Patent-Attorney.jpg");
     position: relative;
 
     width: 100%;
-    height: 65vh;
+    height:80vh;
     background-position: center; 
      background-size: cover; 
-     box-shadow: rgb(0 0 0 / 25%) 0px 10px 10px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
     
     
     
@@ -92,7 +109,7 @@ h1,h2,h3,h4,div,button,p{
     height: 35px;
     font-weight:bold;
     border-radius: 15px;
-    
+    margin-right: 15px;
         background-color: var(--main-color);
         color: white;
         border-color: white;
@@ -120,8 +137,8 @@ border-color: white;
     /* background-color: #0abcf9;
     background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
     border-color: white;
-    box-shadow: rgb(0 0 0 / 25%) 0px 10px 10px, rgb(0 0 0 / 12%) 0px -12px 10px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
-    margin-bottom: 20px;   
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
 }
 /* @keyframes slideMe{
     0%{
@@ -299,7 +316,7 @@ ul li a:hover{
 }
 
 .bottom{
-    height: 10vh;
+    height: 20vh;
     align-items: center;
     display:flex;
     justify-content: center;
@@ -346,5 +363,6 @@ ul li a:hover{
 }
 
 #padding2{
-    padding-left: 5px
+    padding-right: 5px
 }
+

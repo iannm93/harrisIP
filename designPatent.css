@@ -96,6 +96,20 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("h
         background-color: var(--main-color);
         color: white;
         border-color: white;
+        margin-right: 15px;
+    
+    
+}
+
+#frequent{
+    height: 35px;
+    font-weight:bold;
+    border-radius: 15px;
+    
+        background-color: var(--main-color);
+        color: white;
+        border-color: white;
+        margin-left: 15px;
     
     
 }
@@ -349,3 +363,14 @@ ul li a:hover{
     padding-right: 5px
 }
 
+#modal-p{
+    padding: 30px;
+
+
+}
+
+#modal-color{
+   color: var(--main-color);
+   font-weight: bolder;
+    
+}

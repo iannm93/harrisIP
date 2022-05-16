@@ -1,66 +1,163 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product Design Patents</title>
-   
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/dbf54a6bdf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles6.css">
-</head>
-  <body>
-      
 
-          <section class ="header">
-              <div class="container">
-                  <nav class="navbar navbar-expand-lg navbar-dark">
-                      <div class="container">
-                          <a class="navbar-brand" href="index.html">SCHIP Law</a>
-                          <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" data-target = ".navbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="index.html#scroll">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ss" href="landing.html">What We Do</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="consultation.html">Free Quote Request</a>
-                        </li>
-                    </ul>
-                   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dbf54a6bdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="designPatent.css">
+</head>
+
+<body>
+
+
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SCHIP Law</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" data-target=".navbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#scroll">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ss" href="landing.html">What We Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="consultation.html">Free Quote Request</a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
             <div class="middle">
                 <h1 class=" display-4 text-white fw-bold">
-                    Protect the Ornamental Features of Your Product 
+                    Protect the Ornamental Features of Your Product
                     <span id="main-color"> or Computer Interface</span></h3>
-                </div>
-                <div class="bot">
-                    
+            </div>
+            <div class="bot">
+
             </div>
             <class class="bottom">
-                <button   onclick ="document.location = 'landing.html'"    id = "consultation" type="button" class="btn btn-primary" >
+                <button onclick="document.location = 'landing.html'" id="consultation" type="button"
+                    class="btn btn-primary">
                     Back To What We Do
-                  </button>
-                  
-                
+                </button>
+
+                <!-- Button trigger modal -->
+                <button id="frequent" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Frequently Asked Questions
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Frequently Asked Questions About Design
+                                    Patents:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 id="modal-color">
+                                    What is a Design patent?
+                                </h5>
+                                <p id="modal-p">
+                                    A Design patent covers the ornamental features of any product. You can get a design
+                                    patent in addition to getting a utility patent. If you do, the utility patent will
+                                    cover the way the device operates and the design patent will cover the way the
+                                    device looks. Apple has gotten design patents on the look of their iPhone, for
+                                    example. To qualify for design patent protection, a design must have an ornamental
+                                    appearance that is not dictated only by its function. This means that if a
+                                    particular design is essential to the use of the article, that design can not be the
+                                    subject of a design patent.
+                                </p>
+
+                                <h5 id="modal-color">
+                                    What kinds of things can I get a design patent on?
+                                </h5>
+                                <p id="modal-p">
+                                    You can get a design patent on the shape of any package or machine or any real world
+                                    object, such as a bottle or can. You can get a design patent on art — for example,
+                                    the statue of liberty got a design patent (now expired) You can also get a design
+                                    patent on things that appear only on a screen, such as an icon or user interface or
+                                    even a font. You can patent the look of an item of clothing or jewelry. Design
+                                    patents are very powerful.
+                                </p>
+
+                                <h5 id="modal-color">
+                                    Will anyone who makes a similar device infringe my design patent?
+                                </h5>
+                                <p id="modal-p">
+                                    Well not anyone. The test for infringement of a design patent is whether the other
+                                    product looks the same “from the point of view of an ordinary observer”. That means
+                                    that if somebody tries to copy your device but make some insubstantial changes, that
+                                    likely will infringe your design patent. However, if someone makes a similar device
+                                    that does a similar thing but looks completely different, that won’t infringe your
+                                    design patent.
+                                </p>
+
+                                <h5 id="modal-color">
+                                    Will there be any other fees to get the design patent (other than filing fees,
+                                    quoted above)?
+                                </h5>
+                                <p id="modal-p">
+                                    Will there be any other fees to get the design patent (other than filing fees,
+                                    quoted above)?
+
+                                </p>
+
+
+                                <h5 id="modal-color">
+                                    Can I get a design patent on something that I saw that isn't already patented?
+                                </h5>
+                                <p id="modal-p">
+                                    
+                                    You can only get a design patent on something that you yourself invented. If you
+                                    invented the design, and then saw something similar, you might still be able to
+                                    patent your design. However, you can’t patent someone else’s design.
+
+                                </p>
+                                <h5 id="modal-color">
+                                    How Long does a design patent last?
+                                </h5>
+                                <p id="modal-p">
+                                    A design patent lasts 14 years from the date it is granted.
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button id ="consultation" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </class>
-            
+
         </div>
-        
+
     </section>
-      
-    
+
+
     <!-- <img class="picture" /> -->
     <div class="row">
         <div id="padding1" class="col-lg-6">
@@ -69,86 +166,105 @@
                     <div class="card-body d-flex justify-content-center p-0">
                     </div>
                 </div>
-                
+
                 <div id="whatWeDo" class="card">
-                    <h2 id= "what-we-do"class="card-title text-center">Easy and Inexpensive
-                    </h3>
-                    <div class="scales d-flex justify-content-center">
-                        <div class="d-flex align-items-center">
-                            
-                            <div class="left"></div>
+                    <h2 id="what-we-do" class="card-title text-center">Easy and Inexpensive
+                        </h3>
+                        <div class="scales d-flex justify-content-center">
+                            <div class="d-flex align-items-center">
+
+                                <div class="left"></div>
+                            </div>
+                            <i class="fa fa-scale-balanced"></i>
+                            <div class="d-flex align-items-center">
+
+                                <div class="right"></div>
+                            </div>
                         </div>
-                        <i class ="fa fa-scale-balanced"></i>
-                        <div class="d-flex align-items-center">
-                            
-                            <div class="right"></div>
+
+                        <div class="underline-container">
+                            <div class="underline"></div>
                         </div>
-                    </div>
-                    
-                    <div class="underline-container">
-                        <div class="underline"></div>
-                    </div>
-                    <p class="card-body">
-                        
-                        
-                        Design Patents are easy to apply for, and inexpensive. We charge $900 + filing fees (typically $280 if you qualify as a “micro entity”) + fees for the drawings if you can’t do them yourself (typically $350-400) for filing. For that price, we handle the preparation and filing of the design patent, as well as any “informal” rejections that the patent office might make.
-                        We have filed more than 100 Design Patents and had 100% success rate in obtaining patents for our clients. We also have relationships with the finest drawing creators in the world. Our draftsmen (and women) created the drawings that Apple successfully enforced against Samsung! However, you don’t have to use our drawing drafters if you want to create the drawings yourself.
-                        
-                    </p>
+                        <p class="card-body">
+
+
+                            Design Patents are easy to apply for, and inexpensive. We charge $900 + filing fees
+                            (typically $280 if you qualify as a “micro entity”) + fees for the drawings if you can’t do
+                            them yourself (typically $350-400) for filing. For that price, we handle the preparation and
+                            filing of the design patent, as well as any “informal” rejections that the patent office
+                            might make.
+                            We have filed more than 100 Design Patents and had 100% success rate in obtaining patents
+                            for our clients. We also have relationships with the finest drawing creators in the world.
+                            Our draftsmen (and women) created the drawings that Apple successfully enforced against
+                            Samsung! However, you don’t have to use our drawing drafters if you want to create the
+                            drawings yourself.
+
+                        </p>
                 </div>
+            </div>
+        </div>
+        <div id="padding2" class="col-lg-6">
+            <div class="cardContainer">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center p-0">
+                    </div>
+                </div>
+
+                <div id="whatWeDo" class="card">
+                    <h2 id="what-we-do" class="card-title text-center">Powerful Protection and Easy to Get
+
+                        </h3>
+                        <div class="scales d-flex justify-content-center">
+                            <div class="d-flex align-items-center">
+
+                                <div class="left"></div>
+                            </div>
+                            <i class="fa fa-scale-balanced"></i>
+                            <div class="d-flex align-items-center">
+
+                                <div class="right"></div>
+                            </div>
+                        </div>
+
+                        <div class="underline-container">
+                            <div class="underline"></div>
+                        </div>
+                        <p class="card-body">
+
+
+                            A design patent is infringed if an ordinary observer would think that the accused design is
+                            substantially the same as the patented design when the two designs are compared in the
+                            context of the prior art. Apple was awarded $290 million in damages on their design patent.
+
+                            Design patents are easier to get than “utility” patents. All patents, including design
+                            patents, are examined by the patent office before the patent is granted. For a design
+                            patent, however, the patent office rarely makes any kind of rejection of the design patent,
+                            because most designs are unique. So in many ways it is easier to get a design patent, than
+                            it is to get a utility patent. Most design patents get allowed by the patent office right
+                            away.
+                        </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="padding2" class="col-lg-6">
-        <div class="cardContainer">
-            <div class="card">
-                <div class="card-body d-flex justify-content-center p-0">
-                </div>
-            </div>
-            
-            <div id="whatWeDo" class="card">
-                <h2 id= "what-we-do"class="card-title text-center">Powerful Protection and Easy to Get
+    <br>
+    <br>
 
-                </h3>
-                <div class="scales d-flex justify-content-center">
-                    <div class="d-flex align-items-center">
-                        
-                        <div class="left"></div>
-                    </div>
-                    <i class ="fa fa-scale-balanced"></i>
-                    <div class="d-flex align-items-center">
-                        
-                        <div class="right"></div>
-                    </div>
-                </div>
-                
-                <div class="underline-container">
-                    <div class="underline"></div>
-                </div>
-                <p class="card-body">
-                    
-                    
-                    A design patent is infringed if an ordinary observer would think that the accused design is substantially the same as the patented design when the two designs are compared in the context of the prior art. Apple was awarded $290 million in damages on their design patent.
+    <footer class="container-footer bg-4 text-center d-flex justify-content-center">
+        <div class="img-container">
 
-Design patents are easier to get than “utility” patents. All patents, including design patents, are examined by the patent office before the patent is granted. For a design patent, however, the patent office rarely makes any kind of rejection of the design patent, because most designs are unique. So in many ways it is easier to get a design patent, than it is to get a utility patent. Most design patents get allowed by the patent office right away.
-                </p>
-            </div>
-    </div>
-</div>
-</div>
-<br>
-<br>
+            <img id="linkedIcon" src="linkedin_logo.png">
+            <img title="Click to see our Yelp!" alt="yelp" id="yelpIcon" src="yelp-logo.png">
+            <img title="Click to see our Yelp!" alt="yelp" id="googleReviews"
+                src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/google-512.png">
+        </div>
+    </footer>
 
-<footer class="container-footer bg-4 text-center d-flex justify-content-center">
-    <div class="img-container">
-
-      <img  id = "linkedIcon" src="linkedin_logo.png">
-      <img title  ="Click to see our Yelp!"alt ="yelp" id = "yelpIcon" src="yelp-logo.png">
-      <img title ="Click to see our Yelp!"alt ="yelp" id = "googleReviews" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/google-512.png">
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
