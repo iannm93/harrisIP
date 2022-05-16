@@ -48,7 +48,7 @@ h1,h2,h3,h4,div,button,p{
 }
 
 .header{
-            
+            margin-bottom: 3%;
                 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://attorneyatlawmagazine.com/wp-content/uploads/2019/09/Phoenix-Patent-Attorney.jpg");
     position: relative;
 
