@@ -144,11 +144,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     color: var(--main-color);
 }
 
-.ss{
-    color: var(--main-color) !important;
-    border-bottom: 2px solid var(--main-color);
 
-}
 .navbar ul li a:hover{
     color: var(--main-color) !important;
     border-bottom: 2px solid var(--main-color);
