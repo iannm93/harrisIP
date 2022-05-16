@@ -12,7 +12,7 @@ let googleReviews=  document.getElementById("googleReviews")
 
 
 function redirectYelp(){
-  window.location.href = "https://www.yelp.com/developers/v3/manage_app";
+  window.location.href = "https://www.yelp.com/biz/law-office-of-scott-c-harris-rancho-santa-fe";
 }
 function redirectGoogle(){
   window.location.href = "https://www.google.com/search?q=awesomew&sxsrf=ALiCzsZI4AxlhG0NqhYod4VWTFSCcZrO-g%3A1652392982448&source=hp&ei=FoR9YoDxF4_JkPIPr6O54Aw&iflsig=AJiK0e8AAAAAYn2SJkCSFScJ9HxGvqkq1g47mZNT5noF&ved=0ahUKEwiA1PrF-9r3AhWPJEQIHa9RDswQ4dUDCAk&uact=5&oq=awesomew&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgUIABCABDIKCAAQgAQQhwIQFDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEOoCECc6BAgjECc6BQgAEJECOgsILhDHARDRAxCRAjoRCC4QgAQQsQMQgwEQxwEQ0QM6CAguELEDEIMBOgQIABBDOg0ILhCxAxDHARDRAxBDOgoIABCxAxCDARBDOg4ILhCABBCxAxDHARDRAzoICC4QgAQQsQM6BwgAELEDEEM6CAgAEIAEELEDOgsILhCABBCxAxCDAVDeD1i1FGCRFWgBcAB4AIABf4gB4wWSAQMzLjSYAQCgAQGwAQo&sclient=gws-wiz";
