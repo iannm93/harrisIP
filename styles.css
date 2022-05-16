@@ -303,6 +303,9 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
     color: var(--main-color)
 }
+#card-padding{
+    padding: 40px;
+}
 
 .bottom{
     height: 30vh;
