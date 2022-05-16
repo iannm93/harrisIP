@@ -1,0 +1,352 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    border-color: white;
+}
+
+#card{
+    height:300px;
+
+}
+:root{
+    --main-color: #f0b30f;
+}
+#main-color{
+    color:var(--main-color)
+}
+
+#color{
+    color:var(--main-color);
+    font-weight: 900;
+    font-size: 15px;
+    padding-left:2px;
+    /* font-size: 20px; */
+    text-decoration: none;
+}
+
+@import url("htts://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h1,h2,h3,h4,div,button,p{
+    font-family: "Poppins", sans-serif
+
+}
+#header{
+    font-weight:bold;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+.middle{
+    height: 30vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/159832/justice-law-case-hearing-159832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    position: relative;
+
+    width: 100%;
+    height: 65vh;
+    background-position: center; 
+     background-size: cover; 
+     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
+    
+    
+}
+#model{
+    padding: 10px;
+}
+#captions{
+    top: 
+    1%;}
+.schiplaw{
+    width: 300px
+}
+#lastCard{
+    padding: 0;
+    box-sizing: border-box;
+    /* border: .01px solid; */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 3px 3px; */
+    animation: slideMe .5s ease-in;
+    
+}
+
+/* #lastCard:hover{
+    transform: translateY(0) scale(1.04);
+} */
+.container{
+    padding:0;
+    /* background-color: rgba(0,0,0,0.1); */
+}
+#consultation{
+    height: 35px;
+    font-weight:bold;
+    border-radius: 15px;
+    
+        background-color: var(--main-color);
+        color: white;
+        border-color: white;
+    
+    
+}
+#cardShadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: .01px solid;
+    /* background-color: #0abcf9;
+background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
+border-color: white;
+}
+.cardContainer{
+    border: .01px;
+    animation: slideMe .2s ease-in;
+   
+  
+}
+.cardContainer:hover{
+
+}
+
+#whatWeDo{
+    /* background-color: #0abcf9;
+    background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
+    border-color: white;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
+}
+/* @keyframes slideMe{
+    0%{
+        transform:skewX(10deg) translateX(-5px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+} */
+
+#consultation:hover{
+    transform: translateY(0) scale(1.04);
+    background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+
+}
+.navbar-brand{
+    color: var(--main-color) !important;
+}
+.color{
+    color: var(--main-color);
+}
+
+.ss{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+}
+.underline{
+    
+}
+
+ul li a:hover{
+    color: #f0b30f;
+    border-bottom: 2px solid #f0b30f;
+
+}
+/* .h1, h2, h3, h4, h5 {
+    text-decoration: underline 3px #f0b30f;
+    text-underline-position: under;
+} */
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+
+#message{
+    padding: 30px; 
+}
+
+#containerTwo{
+    margin-bottom: 20px;
+}
+.container-footer{
+    height:100px;
+    width:100%;
+    background-color: #f0b30f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#yelpIcon{
+    height: 100px;
+    width: 100px;
+    padding: 20px
+}
+
+#yelpIcon:hover{
+    cursor: pointer;
+}
+
+
+#linkedIcon{
+    height: 100px;
+    width: 100px;
+    padding: 20px
+}
+
+#linkedIcon:hover{
+    cursor: pointer;
+}
+
+
+#googleReviews{
+    height: 100px;
+    width: 100px;
+    padding: 20px
+}
+
+#googleReviews:hover{
+    cursor: pointer;
+}
+
+
+#yelpCard{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+}
+
+#yelpTwo{
+    height: 30px;
+    width: 30px;
+}
+
+#star{
+    height: 20px;
+    width: 30px;
+    /* margin:0; */
+    padding-right: 10px;
+}
+
+#user{
+    /* padding-top: 10px; */
+    opacity: 0;
+}
+
+
+#star-container{
+    display: flex;
+    justify-content: center;
+}
+.scales{
+    color:black;
+}
+
+.right{
+    border-radius: 15px;
+    width: 50px;
+    height: 2.4px;
+    background-color: var(--main-color);
+    margin-left: 4px;
+
+}
+
+.left{
+    border-radius: 15px;
+    width: 50px;
+    height: 2.4px;
+    background-color: var(--main-color);
+    margin-right: 4px;
+}
+
+#star-container{
+    margin-top:30px;
+}
+#clients{
+    margin-top: 20px;
+}
+
+
+#user{
+    margin-bottom: 20px;
+}
+
+#logo{
+    color: var(--main-color);
+}
+
+#subtitles{
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#modals{
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+}
+#modal-color{
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    color: var(--main-color)
+}
+
+.bottom{
+    height: 15vh;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.bot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#what-we-do{
+    margin-top: 30px;
+}
+#trademarks{
+        margin-right: 10px;
+        height: 35px;
+        font-weight:bold;
+        border-radius: 15px;
+        
+            background-color: var(--main-color);
+            color: white;
+            border-color: white;
+        
+        
+    
+}
+
+#utility{
+    margin-left: 10px;
+    height: 35px;
+    font-weight:bold;
+    border-radius: 15px;
+    
+        background-color: var(--main-color);
+        color: white;
+        border-color: white;
+    
+    
+}
+
+#padding1{
+    padding-right: 5px;
+}
+
+#padding2{
+    padding-left: 5px
+}
