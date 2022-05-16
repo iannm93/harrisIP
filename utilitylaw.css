@@ -366,3 +366,7 @@ ul li a:hover{
     padding-right: 5px
 }
 
+.card-body{
+    line-height: 1.8;
+    padding: 25px;
+}
