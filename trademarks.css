@@ -294,7 +294,7 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
 }
 #modal-color{
-    line-height: 1.8;
+    /* line-height: 1; */
     font-family: "Poppins", sans-serif;
     color: var(--main-color)
 }
@@ -329,6 +329,15 @@ ul li a:hover{
     padding: 30px;
 
 
+}
+h5{
+    line-height: 1.0;
+}
+p{
+    line-height: 1.8;
+}
+.header{
+    margin-bottom: 20px;
 }
 #modal-p1{
     padding: 10px;

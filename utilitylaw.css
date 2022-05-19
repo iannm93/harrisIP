@@ -310,7 +310,7 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
 }
 #modal-color{
-    line-height: 1.8;
+    /* line-height: 1.8; */
     font-family: "Poppins", sans-serif;
     color: var(--main-color)
 }
@@ -369,4 +369,7 @@ ul li a:hover{
 .card-body{
     line-height: 1.8;
     padding: 25px;
+}
+p{
+    line-height: 1.8;
 }

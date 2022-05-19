@@ -307,11 +307,13 @@ ul li a:hover{
     font-family: "Poppins", sans-serif;
 }
 #modal-color{
-    line-height: 1.8;
+    /* line-height: 1.8; */
     font-family: "Poppins", sans-serif;
     color: var(--main-color)
 }
-
+p{
+    line-height: 1.8;
+}
 .bottom{
     height: 15vh;
     align-items: center;
