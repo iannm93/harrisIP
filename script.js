@@ -164,18 +164,18 @@ setInterval(randomYelps, 5000);
 let opacityFade = function (){
   let opacity = Number(window.getComputedStyle(user).getPropertyValue("opacity"))
   if (opacity < 1){
-    opacity = opacity +0.1
+    opacity = opacity +0.05
     user.style.opacity= opacity
   }
 
   let opacity2 = Number(window.getComputedStyle(message).getPropertyValue("opacity"))
   if( opacity2 < 1){
-    opacity2 = opacity2 +0.1
+    opacity2 = opacity2 +0.05
     message.style.opacity = opacity2 
   }
  
 }
-setInterval(opacityFade, 150)
+setInterval(opacityFade, 50)
 // console.log(users)
 //  time = setInterval(() => {
 //    for(let i = 0 ; i<count.length; i++){
