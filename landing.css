@@ -142,6 +142,7 @@ border-color: white;
 background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
 }
+
 .navbar-brand{
     color: var(--main-color) !important;
 }
@@ -199,6 +200,7 @@ ul li a:hover{
 }
 
 #yelpIcon:hover{
+    
     cursor: pointer;
 }
 
