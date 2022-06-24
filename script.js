@@ -138,6 +138,7 @@ let randomYelps = function () {
   /><img
   id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
   />`
+  starContainer.style.opacity = 0;
 
   } else if (yelpArray[randomNumb].user.star === 4) {
     starContainer.innerHTML = `<img
@@ -150,6 +151,7 @@ let randomYelps = function () {
   /><img
   id = "star"  src="http://pluspng.com/img-png/star-png-star-vector-png-transparent-image-2000.png"
   />`
+  starContainer.style.opacity = 0;
   }
   
   count--;
@@ -172,6 +174,12 @@ let opacityFade = function (){
   if( opacity2 < 1){
     opacity2 = opacity2 +0.05
     message.style.opacity = opacity2 
+  }
+
+  let opacity3 = Number(window.getComputedStyle(starContainer).getPropertyValue("opacity"))
+  if( opacity3 < 1){
+    opacity3 = opacity3 +0.05
+    starContainer.style.opacity = opacity3 
   }
  
 }
